@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Libraries used  -->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>All About Pranesh</title>
 
+	<!-- Libraries used  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
@@ -16,137 +16,146 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
 	<link href="style.css" rel="stylesheet"></head>
 
+	<!-- Body Part starts here -->
+	<body>
 
-<!-- Body Part starts here -->
-<body>
-
-	<!-- Navigation -->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">  
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#WelcomeSection">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#ProjectsDone">Project</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#SocialConnect">Social</a>
-					</li>
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPoll-1">Rate me</button>
-				</ul>
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">  
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#WelcomeSection">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#ProjectsDone">Project</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#SocialConnect">Social</a>
+						</li>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPoll-1">Rate me</button>
+					</ul>
+				</div>
 			</div>
-		</div></nav>
+		</nav>
 
+	<!-- Modal: modalPoll -->
+	<div class="modal fade" id="modalPoll-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+	  aria-hidden="true" data-backdrop="false">
+	  <div class="modal-dialog modal-full-height modal-right modal-notify modal-info" role="document">
+		<div class="modal-content">
+		  
+			<!--Header-->
+		  	<div class="modal-header">
+				<p class="heading lead">Feedback request</p>
 
-<!-- Modal: modalPoll -->
-<div class="modal fade" id="modalPoll-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true" data-backdrop="false">
-  <div class="modal-dialog modal-full-height modal-right modal-notify modal-info" role="document">
-    <div class="modal-content">
-      <!--Header-->
-      <div class="modal-header">
-        <p class="heading lead">Feedback request
-        </p>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true" class="white-text">×</span>
+				</button>
+		  	</div>
 
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" class="white-text">×</span>
-        </button>
-      </div>
+		  	<!--Body-->
+		  	<div class="modal-body">
 
-      <!--Body-->
-      <div class="modal-body">
-        <div class="text-center">
-       
-        </div>
+				<!-- Radio -->
+				<p class="text-center">
+				  <strong>Your Rating</strong>
+				</p>
 
-        <!-- Radio -->
-        <p class="text-center">
-          <strong>Your Rating</strong>
-        </p>
-        <div class="form-check mb-4">
-          <input class="form-check-input" name="group1" type="radio" id="rb1" value="option1" checked>
-          <label class="form-check-label" for="rb1">Very good</label>
-        </div>
+				<div class="form-check mb-4">
+				  <input class="form-check-input" name="group1" type="radio" id="rb1" value="option1" checked>
+				  <label class="form-check-label" for="rb1">Very good</label>
+				</div>
 
-        <div class="form-check mb-4">
-          <input class="form-check-input" name="group1" type="radio" id="rb2" value="option2">
-          <label class="form-check-label" for="rb2">Good</label>
-        </div>
+				<div class="form-check mb-4">
+				  <input class="form-check-input" name="group1" type="radio" id="rb2" value="option2">
+				  <label class="form-check-label" for="rb2">Good</label>
+				</div>
 
-        <div class="form-check mb-4">
-          <input class="form-check-input" name="group1" type="radio" id="rb3" value="option3">
-          <label class="form-check-label" for="rb3">Mediocre</label>
-        </div>
-        <div class="form-check mb-4">
-          <input class="form-check-input" name="group1" type="radio" id="rb4" value="option4">
-          <label class="form-check-label" for="rb4">Bad</label>
-        </div>
-        <div class="form-check mb-4">
-          <input class="form-check-input" name="group1" type="radio" id="rb5" value="option5">
-          <label class="form-check-label" for="rb5">Very bad</label>
-        </div>
-        <!-- Radio -->
+				<div class="form-check mb-4">
+				  <input class="form-check-input" name="group1" type="radio" id="rb3" value="option3">
+				  <label class="form-check-label" for="rb3">Mediocre</label>
+				</div>
 
-        <p class="text-center">
-          <strong>What could I improve?</strong>
-        </p>
-        <!--Basic textarea-->
-        <div class="md-form">
-          <textarea type="text" id="FillHere" class="md-textarea form-control" rows="3"></textarea>
-          <label for="form79textarea" placeholder="Your Message"></label>
-        </div>
+				<div class="form-check mb-4">
+				  <input class="form-check-input" name="group1" type="radio" id="rb4" value="option4">
+				  <label class="form-check-label" for="rb4">Bad</label>
+				</div>
 
-      </div>
+				<div class="form-check mb-4">
+				  <input class="form-check-input" name="group1" type="radio" id="rb5" value="option5">
+				  <label class="form-check-label" for="rb5">Very bad</label>
+				</div>
+				<!-- Radio ends here -->
 
-      <!--Footer-->
-      <div class="modal-footer justify-content-center">
+				<p class="text-center">
+				  <strong>What could I improve?</strong>
+				</p>
+				
+				<!--feedback filling text area-->
+				<div class="md-form">
+				  <textarea type="text" id="FillHere" class="md-textarea form-control" rows="3"></textarea>
+				  <label for="form79textarea" placeholder="Your Message"></label>
+				</div>
 
+			  </div>
 
-        <a type="button" id="animButton" class="btn btn-primary waves-effect waves-light" onclick="ClearAll()">Send
-          <i class="fa fa-paper-plane ml-1"></i>
-        </a>
+		  <!--Footer-->
+		  <div class="modal-footer justify-content-center">
 
-        <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal" onclick="ClearAll()">Cancel</a>
-      </div>
-    </div>
-  </div> </div>
+			<a type="button" id="animButton" class="btn btn-primary waves-effect waves-light" onclick="ClearAll()">Send
+			  <i class="fa fa-paper-plane ml-1"></i>
+			</a>
 
+			<a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal" onclick="ClearAll()">Cancel</a>
+		  </div>
+		</div>
+	  </div>
+	</div>
 
 	<!--- Image Slider -->
 	<div id="slides" class="carousel slide" data-wrap="true"  data-pause="false" data-interval="2000" data-ride="carousel" >
+		
+ 		<!-- buttons on top -->
 		<ul class="carousel-indicators">
 			<li data-target="#slides" data-slide-to="0" class="active"></li>
 			<li data-target="#slides" data-slide-to="1"></li>
 			<li data-target="#slides" data-slide-to="2"></li>
 			<li data-target="#slides" data-slide-to="3"></li>
 		</ul>
+		
+		<!-- carousel starts here -->
 		<div class="carousel-inner">
+			
+			<!-- image 1 -->
 			<div class="carousel-item active" >
 				<img src="images/bg1.jpg" class="img-responsive">
+		
 				<div class="carousel-caption">
-					<!-- <h3 class="display-6"></h3> -->
-
+					
+					<!-- highlighted quotes -->
 					<blockquote class="blockquote text-center">
 						<p class="mb-0">I walk Slowly, but I never walk backward.</p>
 						<footer class="blockquote-footer"><cite title="Source Title">Abraham Lincoln</cite></footer>
 					</blockquote>
-
+					
 				</div>
+				
 			</div>
+			
+			<!-- image 2 -->
 			<div class="carousel-item">
 				<img src="images/bg2.jpg" class="img-responsive">
+				
 				<div class="carousel-caption">
 
 					<blockquote class="blockquote text-center">
@@ -155,9 +164,13 @@
 					</blockquote>
 
 				</div>
+				
 			</div> 
+			
+			<!-- image 3 -->
 			<div class="carousel-item">
 				<img src="images/bg3.jpg" class="img-responsive">
+				
 				<div class="carousel-caption">
 
 					<blockquote class="blockquote text-center">
@@ -166,9 +179,13 @@
 					</blockquote>
 
 				</div>
+				
 			</div>
+			
+			<!-- image 4 -->
 			<div class="carousel-item" >
 				<img src="images/bg4.jpg" class="img-responsive">
+				
 				<div class="carousel-caption">
 
 					<blockquote class="blockquote text-center">
@@ -177,143 +194,208 @@
 				  			<cite title="Source Title">Albert Einstein</cite>
 				  		</footer>
 					</blockquote>
+					
 				</div>
+				
 			</div>
-		</div></div>
+			
+		</div>
+		<!-- carousel ends here -->
+		
+	</div>
+	<!-- Image Slider ends here -->
 
+		
+<!-- Main Content Margin starts here -->
 <div id="MarginLeftRight">
 
-	<!--- Welcome Section -->
+	<!--- Welcome Section starts here -->
 	<div class="container-fluid padding">
 		<div class="row welcome text-center">
 			<div id="WelcomeSection">
-				<div class="col-12"  >
+				
+				<div class="col-12">
 					<h1 class="display-4">About me! in short</h1>
 				</div>
+				
+				<!-- welcome sectoin here -->
 				<div class="col-12">
-					<p class="lead">Hey folks, Myself <strong>Pranesh Palanisamy!</strong> Welcome to my Portfolio Website Page.</p><br><br>
-
-					<p class="lead">Myself, A dedicated and motivated Engineering Student. And a person with deep focus towards "Lifelong Learning". I am actively looking for a workspace where talent is respected and the drive for Iterative Learning is kindled.</p><br><br>
-
+					<p class="lead">Hey folks, Myself <strong>Pranesh Palanisamy!</strong> Welcome to my Portfolio Website Page.</p>
+					<br><br>
+					<p class="lead">Myself, A dedicated and motivated Engineering Student. And a person with deep focus towards "Lifelong Learning". I am actively looking for a workspace where talent is respected and the drive for Iterative Learning is kindled.</p>
+					<br><br>
 					<p class="text-muted">Inspired by the quote..</p>
+					
+					<!-- quote highlights -->
 					<blockquote class="blockquote text-center">
 					  <p class="mb-0">"If You are Working on something that you really care about, You dont't have to be pushed. The Vision Pulls You.."</p>
 					  <footer class="blockquote-footer">By <cite title="Source Title">Steve Jobs</cite></footer>
 					</blockquote>
+					
 				</div>
+				
 			</div>
 			
 		</div>
-		<hr class="my-4"></div>
+		
+		<hr class="my-4">
+	</div>
+	<!--- Welcome Section ends here-->
 
-
-	<!--- About Me -->
+	<!--- About Me section-->
 	<div class="container-fluid padding">
+		
+		<!--- row holding (more about me, ) -->
 		<div class="row padding">
+			
+			<!--- more about me Section -->
 			<div class="col-lg-8">
 				<h2>More about me..</h2><br>
-				<p class="pl-md-5">Yeah! I was a person who loved to create new things that makes me more intresting. Technological streams like Android, Web Development, Cyber Security, Ethical Hacking, UI/UX Things and much more.. Created a big curiosity towards the IT-Industry. So I started to fetch information about that by attending Tech-MeetUps, Community Discussions, Reading Blogs, Tech Youtube videos, Discussing with Devs through LinkedIn, and more. </p>
-
-				<p class="pl-md-5">With a small knowledge about these technologies. I started to explore things by working on it. I started with Android, Web and UI Designing. The Cutting edge technologies and very popular and made me to understand easily. </p>
-
-				<p class="pl-md-5">I started using the popular Resourses of Open Source Software which helped me more. "<strong>Android Studio</strong>" helped more to start and explore by Creating and Playing with that. Learning started and made easy to move with Android its Utilities. I refered more and more to understand it well, Thanks for the people who helped me. "<strong>GitHub</strong>" was the first VCS that I have Experienced with and made my work simple to collaborate with my friends while doing project works and mainly used for me to ShowCase All my Projects that mentioned in my Resume. Then I spend a part of time to learn about new and the existing technologies. </p>
-
+				<p class="pl-md-5">Yeah! I was a person who loved to create new things that makes me more intresting. Technological streams like Android, Web Development, Cyber Security, Ethical Hacking, UI/UX Things and much more.. Created a big curiosity towards the IT-Industry. So I started to fetch information about that by attending Tech-MeetUps, Community Discussions, Reading Blogs, Tech Youtube videos, Discussing with Devs through LinkedIn, and more.</p>
+				<p class="pl-md-5">With a small knowledge about these technologies. I started to explore things by working on it. I started with Android, Web and UI Designing. The Cutting edge technologies and very popular and made me to understand easily.</p>
+				<p class="pl-md-5">I started using the popular Resourses of Open Source Software which helped me more. "<strong>Android Studio</strong>" helped more to start and explore by Creating and Playing with that. Learning started and made easy to move with Android its Utilities. I refered more and more to understand it well, Thanks for the people who helped me. "<strong>GitHub</strong>" was the first VCS that I have Experienced with and made my work simple to collaborate with my friends while doing project works and mainly used for me to ShowCase All my Projects that mentioned in my Resume. Then I spend a part of time to learn about new and the existing technologies.</p>
 				<p class="pl-md-5">I started learning Android during (pre-final Year in UG). I did a Project on Creating a Portfolio App for to test my skill level. I completed that in a short span of time within 4days. During the four days I spent more time in designing part so that it will beautify my Application. I used "<strong>Adobe XD</strong>" to design the application. I used that Software for designing more UI's for further more Applications also. </p>
 
 			</div>
 			<br><br>
+			<!--- more about me ends here -->
+			
+			<!--- workspace image -->
 			<div class="col-lg-4">
 				<img src="images/to_be_like.png" class="img-fluid">
 			</div>
+			<!---  workspace image ends here -->
+			
 		</div>
-		<hr class="my-4"></div>
+		
+		<hr class="my-4">
+	</div>
+	<!--- About Me section ends here-->
 
-
+	
 	<!--- Fixed background -->
 	<figure>
 		<div class="fixed-wrap">
 			<div id="fixed">
 				
 			</div>
-		</div></figure><hr class="my-4">
-
-
-	<!--- Domains worked -->
+		</div>
+	</figure>
+	<hr class="my-4">
+	<!--- Fixed background ends here -->
+	
+	
+	<!--- Domains heading -->
 	<div class="container-fluid padding">
 		<div class="row welcome text-center">
 			<div class="col-12">
 				<h1 class="display-4">Experienced Domains</h1>
 			</div>
 			<div class="heading-underline"></div>
-		</div></div>
+		</div>
+	</div>
+	<!--- Domains heading ends here -->
 
-
-	<!--- Domains in Card Views-->
+	
+	<!--- Domains worked in Card Views -->
 	<div class="container-fluid padding">
+		
+		<!--- Domains worked -->
 		<div class="card-deck">
+			
+			<!--- card 1 -->
 			<div class="col-md-4">
+				
 				<div class="card">
 					<img class="card-img-top" src="images/android.png">
 					<div class="card-body">
 						<h4 class="card-title">Android Studio</h4>
 						<p class="card-text">A Popular Development Platform for Creating Mobile Application Developed by Google Developers and JetBrains. Mainly for creating Native Applications.</p>
 					</div>
+					
 				</div>
+				
 			</div>
 
+			<!--- card 2 -->
 			<div class="col-md-4">
+				
 				<div class="card">
 					<img class="card-img-top" src="images/adobexd.png">
 					<div class="card-body">
 						<h4 class="card-title">Adobe XD</h4>
 						<p class="card-text">A Trendy Software Developed by Adobe for Designing all Front End Part of both Web and Mobile Application that acts as a basic working prototype of that product.</p>
 					</div>
+					
 				</div>
+				
 			</div>
 
+			<!--- card 3 -->
 			<div class="col-md-4">
+				
 				<div class="card">
 					<img class="card-img-top" src="images/firebase.png">
 					<div class="card-body">
 						<h4 class="card-title">Firebase</h4>
 						<p class="card-text">A Popular Platform used as Integrated Database for the purpose of storing and retrieving. Developed by Google for Android Studio.</p>
 					</div>
+					
 				</div>
+				
 			</div>
-
+			<!--- card 3 ends here -->
+			
 		</div>
-		<hr class="my-4"></div>
+		<hr class="my-4">
+		<!--- Domains worked ends here -->
+		
+	</div>
+	<!--- Domains worked in Card Views ends here -->
 
-
-	<!--- Technologies known -->
+	
+	<!--- Technologies known section -->
 	<div class="container-fluid padding">
+		
+		<!--- Domains worked in Card Views -->
 		<div class="row text-center padding">
 			
+			<!--- linux -->
 			<div class="col-xs-12 col-sm-6 col-md-4">
 				<i class="fab fa-linux" aria-hidden="true" style='font-size:48px;color:black'></i>
 				<h3>Linux</h3>
 				<p>Loved to work with Linux(Open Source) based OS. </p>
 			</div>
+			
+			<!--- github -->
 			<div class="col-xs-12 col-sm-6 col-md-4">
 				<i class='fab fa-github' style='font-size:48px;color:darkblue'></i>
 				<h3>GitHub</h3>
 				<p>Best Version Control System and easy way to Collaborate with Devs.</p>
 			</div>
+			
+			<!--- stack over flow -->
 			<div class="col-xs-12 col-sm-6 col-md-4">
 				<i class='fab fa-stack-overflow' style='font-size:48px;color:yellow'></i>
 				<h3>Stack Over Flow</h3>
 				<p>Best with solving lots of problems.</p>
 			</div>
+			
+			<!--- bootstrap 4 -->
 			<div class="col-xs-12 col-sm-6 col-md-4">
 				<i class='fas fa-bold' style='font-size:48px;color:darkblue'></i>
 				<h3>BOOTSTRAP</h3>
 				<p>Built with the latest version of Bootstrap, Bootstrap 4</p>
 			</div>
+			
+			<!--- html 5 -->
 			<div class="col-xs-12 col-sm-6 col-md-4">
 				<i class='fab fa-html5' style='font-size:48px;color:red'></i>
 				<h3>HTML5</h3>
 				<p>Best with latest version of HTML, HTML5</p>
 			</div>
+			
+			<!--- css 3 -->
 			<div class="col-xs-12 col-sm-6 col-md-4">
 				<i class='fab fa-css3-alt' style='font-size:48px;color:blue'></i>
 				<h3>CSS3</h3>
@@ -321,213 +403,330 @@
 			</div>
 			
 		</div>
-		<hr class="my-4"></div>
+		<hr class="my-4">
+		<!--- Domains worked in Card Views ends here -->
+		
+	</div>
+	<!--- Technologies known section ends here -->
 
-
-	<!--- Pojects Done -->
+	
+	<!--- Pojects section -->
 	<div id="ProjectsDone"class="offset">
 			
-			<div class="col-12 text-center">
-				<h3 class="display-4">My Projects</h3>
-				<div class="heading-underline"></div>
+		<!--- project heading starting here -->
+		<div class="col-12 text-center">
+			<h3 class="display-4">My Projects</h3>
+			<div class="heading-underline"></div>
+		</div>
+		<!--- project heading ending here -->
+
+		<!--- project section 1 & 2 starting here -->
+		<div class="row">
+
+			<!--- project 1 -->
+			<div class="col-md-6 ProjectsDone">
+
+				<!--- project 1 pic and content -->
+				<div class="row">
+					
+					<div class="col-md-4">
+						<img src="images/project1.png">
+					</div>
+					
+					<div  class="col-md-8">
+						
+						<blockquote>
+							<i class="fas fa-quote-left"></i>
+							My First Application, a simple App that say everything about me. That consists of Good UI and the Code part in it. Created to test my Skill and Developed with Adobe XD and Android Studio.
+							<hr class="project-hr">
+							<cite>&#8212; Myself, Personal Interest.</cite>
+						</blockquote>
+						
+					</div>
+					
+				</div>
+				<!--- project 1 pic and content ends here -->
+				
 			</div>
+			<!--- project 1 ends here -->
 
-			<div class="row">
-
-				<div class="col-md-6 ProjectsDone">
-
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/project1.png">
-						</div>
-						<div  class="col-md-8">
-							<blockquote>
-								<i class="fas fa-quote-left"></i>
-								My First Application, a simple App that say everything about me. That consists of Good UI and the Code part in it. Created to test my Skill and Developed with Adobe XD and Android Studio.
-								<hr class="project-hr">
-								<cite>&#8212; Myself, Personal Interest.</cite>
-							</blockquote>
-						</div>
+			<!--- project 2 -->
+			<div class="col-md-6 ProjectsDone">
+				
+				<!--- project 2 pic and content -->
+				<div class="row">
+					
+					<!--- project 2 pic -->
+					<div class="col-md-4">
+						<img src="images/project2.png">
 					</div>
-				</div>
-	
-				<div class="col-md-6 ProjectsDone">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/project2.png">
-						</div>
-						<div class="col-md-8">
-							<blockquote>
-								<i class="fas fa-quote-left"></i>
-								A Mobile Application, that captures the image of a person and detects whether he smiles or not using Machine Learning with simple UI in Android Studio.
-								<hr class="project-hr">
-								<cite>&#8212; Myself, Personal Interest.</cite>
-							</blockquote>
-						</div>
+					
+					<div class="col-md-8">
+						
+						<!--- project 2 content -->
+						<blockquote>
+							<i class="fas fa-quote-left"></i>
+							A Mobile Application, that captures the image of a person and detects whether he smiles or not using Machine Learning with simple UI in Android Studio.
+							<hr class="project-hr">
+							<cite>&#8212; Myself, Personal Interest.</cite>
+						</blockquote>
+						
 					</div>
+					
 				</div>
-
-			</div><br><br>
-
-			<div class="row">
-
-				<div class="col-md-6 ProjectsDone">
-
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/project3.png">
-						</div>
-						<div  class="col-md-8">
-							<blockquote>
-								<i class="fas fa-quote-left"></i>
-								My First Web Application, a simple App that say everything about me. The Website was designed and developed in a short span of time using Bootstrap 4, HTML 5, CSS 3.
-								<hr class="project-hr">
-								<cite>&#8212; Myself, Personal Interest.</cite>
-							</blockquote>
-						</div>
-					</div>
-				</div>
-	
-				<div class="col-md-6 ProjectsDone">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/project4.png">
-						</div>
-						<div class="col-md-8">
-							<blockquote>
-								<i class="fas fa-quote-left"></i>
-								A Mobile Application, that gets all the details of the user and stores in database(Unstructured) into Firebase Database.
-								<hr class="project-hr">
-								<cite>&#8212; Myself, Personal Interest.</cite>
-							</blockquote>
-						</div>
-					</div>
-				</div>
-
-			</div>	<hr class="my-4">
+				<!--- project 2 pic and content ends here -->
+				
 			</div>
+			<!--- project 2 ends here -->
+			
+		</div>
+		<br><br>
+		<!--- project section 1 & 2 ending here -->
+
+		
+		<!--- project section 3 & 4 starts here -->
+		<div class="row">
+
+			<!--- project 3 -->
+			<div class="col-md-6 ProjectsDone">
+				
+				<!--- project 3 picture and content -->
+				<div class="row">
+					
+					<!--- project 3 picture -->
+					<div class="col-md-4">
+						<img src="images/project3.png">
+					</div>
+					
+					<!--- project 3 content -->
+					<div  class="col-md-8">
+						
+						<blockquote>
+							<i class="fas fa-quote-left"></i>
+							My First Web Application, a simple App that say everything about me. The Website was designed and developed in a short span of time using Bootstrap 4, HTML 5, CSS 3.
+							<hr class="project-hr">
+							<cite>&#8212; Myself, Personal Interest.</cite>
+						</blockquote>
+						
+					</div>
+					<!--- project 3 content ends here -->
+					
+				</div>
+				<!--- project 3 picture and content ends here -->
+				
+			</div>
+			<!--- project 3 ends here -->
+	
+			
+			<!--- project 4 -->
+			<div class="col-md-6 ProjectsDone">
+				
+				<!--- project 4 picture and content -->
+				<div class="row">
+					
+					<!--- project 4 picture -->
+					<div class="col-md-4">
+						<img src="images/project4.png">
+					</div>
+					
+					<!--- project 4 content -->
+					<div class="col-md-8">
+						
+						<blockquote>
+							<i class="fas fa-quote-left"></i>
+							A Mobile Application, that gets all the details of the user and stores in database(Unstructured) into Firebase Database.
+							<hr class="project-hr">
+							<cite>&#8212; Myself, Personal Interest.</cite>
+						</blockquote>
+						
+					</div>
+					<!--- project 4 content ends here -->
+					
+				</div>
+				<!--- project 4 picture and content ends here -->
+				
+			</div>
+			<!--- project 4 ends here -->
+
+		</div>
+		<hr class="my-4">
+		<!--- project section 3 & 4 ends here -->
+		
+	</div>
+	<!--- Pojects section ends here -->
 		
 
-	<!--- Connect -->
+	<!--- social media section -->
 	<div class="container-fluid padding" id="SocialConnect">
+		
+		<!--- Social Connect -->
 		<div class="row text-center padding">
+			
+			<!--- connect heading -->
 			<div class="col-12">
 				<h3 class="display-4">Connect</h3>
 			</div>
+			
+			<!--- Social media links -->
 			<div class="col-12 social padding">
 
 				<a href="https://www.facebook.com/pranesh.palanisamy.90"><i class="fab fa-facebook-square"></i></a>
-
 				<a href="https://twitter.com/@pranesh07269610"><i class="fab fa-twitter"></i></a>
-
 				<a href="https://www.instagram.com/its__me__pranesh/"><i class="fab fa-instagram"></i></a>
-
 				<a href="https://github.com/PPranesh"><i class="fab fa-github"></i></a>
-
 				<a href="https://www.linkedin.com/in/pranesh-palanisamy/"><i class="fab fa-linkedin-in"></i></a>
 
 			</div>
-		</div></div>
+			<!--- Social media links ends here -->
+			
+		</div>
+		<!--- Social Connect ends here -->
+	
+	</div>
+	<!--- social media section ends here -->
 	
 </div>
+<!-- Main Content Margin ends here -->
 
-	
-	<!-- Footer -->
+
+	<!-- Footer starts here -->
 	<footer class="page-footer font-small mdb-color lighten-3 pt-4"> 
-		<!-- Footer Links -->
+
+		<!-- Footer rows (final about, about links, address) -->
 		<div class="container text-center text-md-left">
 
 			<!-- footer 3-column row -->
 			<div class="row">
 
-				<!-- portfolio content column -->
+				<!-- portfolio final about column -->
 				<div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
 					<!-- Content -->
 					<h5 class="font-weight-bold text-uppercase mb-4">Portfolio Content</h5>
-
 					<p>The above information that I have mentioned is true to my knowledge.</p>
-					
-					<p>Thanks for spending your time to read my Web page.</p> </div>
+					<p>Thanks for spending your time to read my Web page.</p>
+
+				</div>
+				<!-- portfolio final about column ends here -->
 
 				<hr class="clearfix w-100 d-md-none">
 
-				<!-- About column -->
+				<!-- About links section -->
 				<div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
 
-					<!-- Links -->
+					<!-- headings -->
 					<h5 class="font-weight-bold text-uppercase mb-4">About</h5>
 
+					<!-- links -->
 					<ul class="list-unstyled">
+
+						<!-- project -->
 						<li>
 							<p>
 								<a href="#ProjectsDone">PROJECTS</a>
 							</p>
 						</li>
+
+						<!-- about us -->
 						<li>
 							<p>
 								<a href="#page-footer">ABOUT US</a>
 							</p>
 						</li>
+
+						<!-- blog -->
 						<li>
 							<p>
 								<a href="#">BLOG</a>
 							</p>
 						</li>
+
+						<!-- awards -->
 						<li>
 							<p>
 								<a href="#">AWARDS</a>
 							</p>
 						</li>
-					</ul> </div>
 
+					</ul>
+					<!-- links ends here -->
+
+				</div>
+				<!-- About links section ends here -->
+
+				<!-- "clearfix" ~ clears space when used between floating contents --> 
 				<hr class="clearfix w-100 d-md-none">
 
-				<!-- address column -->
-				<div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+					<!-- address column -->
+					<div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
 
-					<!-- Contact details -->
-					<h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+						<!-- Contact details -->
+						<h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
 
-					<ul class="list-unstyled">
-						<li>
-							<p>
-								<i class="fas fa-home mr-3"></i> Coimbatore, Tamil Nadu.</p>
-						</li>
-						<li>
-							<p>
-								<i class="fas fa-envelope mr-3"></i> ppranesh5@gmail.com</p>
-						</li>
-						<li>
-							<p>
-								<i class="fas fa-phone mr-3"></i> +91 98946 97120</p>
-						</li>
-						<li>
-							<p>
-								<i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-						</li>
-					</ul> </div>
+						<!-- contact details column -->
+						<ul class="list-unstyled">
 
-				<hr class="clearfix w-100 d-md-none"> </div>
+							<!-- address -->
+							<li>
+								<p>
+									<i class="fas fa-home mr-3"></i> Coimbatore, Tamil Nadu.</p>
+							</li>
+
+							<!-- email id -->
+							<li>
+								<p>
+									<i class="fas fa-envelope mr-3"></i> ppranesh5@gmail.com</p>
+							</li>
+
+							<!-- muobile number -->
+							<li>
+								<p>
+									<i class="fas fa-phone mr-3"></i> +91 98946 97120</p>
+							</li>
+
+							<!-- pager -->
+							<li>
+								<p>
+									<i class="fas fa-print mr-3"></i> +01 234 567 89</p>
+							</li>
+
+						</ul>
+						<!-- contact details column ends here -->
+
+					</div>
+					<!-- address column ends here -->
+
+			</div>
+			<!-- footer 3-column row ends here -->
+
+		</div> 
+		<!-- Footer rows (final about, about links, address) ends here -->
 
 
-		</div> <hr class="style5">
-		
 		<!-- copyright -->
 		<div class="footer-copyright text-center py-3">© 2019 Copyright
 			<a href="#slides">AllAboutPranesh.com</a>
-		</div> </footer>
+		</div> 
+		
+	</footer>
+	<!-- Footer ends here -->
+		
+	<!-- js part starts here -->
+	<script type="text/javascript">
 
-		<script type="text/javascript">
-						
-			function ClearAll() {
-			  document.getElementById("rb1").checked = false;
-			  document.getElementById("rb2").checked = false;
-			  document.getElementById("rb3").checked = false;
-			  document.getElementById("rb4").checked = false;
-			  document.getElementById("rb5").checked = false;
-			  document.getElementById("FillHere").value = "";
-			}
-		</script>
+		function ClearAll() {
+		  document.getElementById("rb1").checked = false;
+		  document.getElementById("rb2").checked = false;
+		  document.getElementById("rb3").checked = false;
+		  document.getElementById("rb4").checked = false;
+		  document.getElementById("rb5").checked = false;
+		  document.getElementById("FillHere").value = "";
+		}
+	</script>
+	<!-- js part ends here -->
+
 	</body>
+	<!-- body ends here -->
+
 </html>
+<!-- html ends here -->
