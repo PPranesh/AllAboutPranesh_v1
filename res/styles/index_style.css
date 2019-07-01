@@ -8,7 +8,7 @@ html, body {
 
 #MarginLeftRight {
   padding-right: 10px; 
-  padding-left: 10px;"
+  padding-left: 10px;
 }
 
 
@@ -104,7 +104,7 @@ blockquote .svg-inline--fa {
 }
 
 .fa-facebook-square {
-  color: 3b5998;"
+  color: #3b5998;
 }
 
 .fa-twitter {
@@ -123,11 +123,11 @@ blockquote .svg-inline--fa {
   color: #000000;
 }
 
-.fa-facebook-square : hover,
-.fa-twitter : hover,
-.fa-instagram : hover,
-.fa-linkedin-in : hover,
-.fa-github : hover {
+.fa-facebook-square :hover,
+.fa-twitter :hover,
+.fa-instagram :hover,
+.fa-linkedin-in :hover,
+.fa-github :hover {
   color: #d5d5d5;
 }
 
