@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body {
+  font-family: Arial;
+  background: #f1f1f1;
+}
+
+/* styles for navbar */
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+
+#MarginLeftRight {
+  padding-right: 50px; 
+  padding-left: 50px;"
+}
+
+#my_name {
+  font-size: 1.1em !important;
+  text-align: center;
+}
+
+/* Header/Blog Title */
+#cardHeader {
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.rightcolumn #tags{
+  margin: center;
+  text-align: center;
+}
+
+.rightcolumn #tags span{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.rightcolumn img{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: #EAF0F1;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
