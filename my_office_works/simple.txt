@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<style>
+		.zoom {
+		  padding: 50px;
+		  transition: transform .2s; /* Animation */
+		  margin: 0 auto;
+		}
+
+		.zoom:hover {
+		  transform: scale(1.10); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+		}
+	</style>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AT&T Utilities</title>
+	<link rel="icon" href="at&t_image.png">
+
+	<!-- Libraries used  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.9.0/js/all.js"></script>
+  	<script defer src="https://use.fontawesome.com/releases/v5.9.0/js/v4-shims.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	
+	</head>
+
+	<!-- Body Part starts here -->
+	<body>
+
+		<!-- the final box div -->
+		<div  style="height: 600px; width: 1300px; margin:0 auto;" >
+			
+			
+			<!-- image placing on top -->
+			<div style="margin-top:20px">
+				<!--- connect heading -->
+				<div class="col-12">
+				
+					<img class="rounded mx-auto d-block" 
+                         src="at&t_logo.png" 
+                         style="width:65% ; margin-top: 50px;" >
+
+				</div>
+			</div>
+
+			<!-- *****	Grid row 1 ***** -->
+			<div class="row" style="margin-top:50px;height:300px;width: 1400px;">
+
+			    <!--Grid column 1 -->
+			    <div class="col-md-4 mb-6 text-center">
+
+					<!-- Card starts here-->
+				    <div class="card-img-overlay zoom">
+
+					        <div class="card-image" style="background-image: linear-gradient(-90deg, rgba(82, 122, 245, 0.80) , rgba(155, 220, 255, 0.80)),url(https://img.icons8.com/pastel-glyph/2x/source-code.png); width: 100%; height: 100%; background-size:cover;border-radius: 10px;">
+
+					            <!-- Content -->
+					            <a href="http://172.30.19.43:8080/Auto-Tool/" target="_blank" style="text-decoration: none;">
+					    	    
+					    	        <div class="text-white d-flex h-100 mask">
+						    		<div class="card-body align-items-center d-flex justify-content-center">
+							                <h1 class="card-title">Automation Dashboard</h1>
+						             	</div>
+						            </div>
+						        </a>
+
+					        </div>
+
+					</div>
+				    <!-- Card ends here -->
+
+			    </div>
+			    <!--Grid column 1 -->
+
+
+			    <!--Grid column 2 -->
+			    <div class="col-md-4 mb-6 text-center">
+
+					<!-- Card starts here-->
+				    <div class="card-img-overlay zoom">
+
+				        <div class="card-image" style="background-image: linear-gradient(-90deg, rgba(204, 103, 255, 0.80), rgba(128, 103, 255 ,0.80 )),url(image.png); width: 100%; height: 100%; object-fit: cover;background-size:cover; border-radius: 10px;">
+
+				            <!-- Content -->
+				            <a href="http://172.31.131.83:7000/" target="_blank"  style="text-decoration: none;">
+				    	    
+				    	        <div class="text-white d-flex h-100 mask purple-gradient-rgba">
+					    		<div class="card-body align-items-center d-flex justify-content-center">
+						                <h1 class="card-title">Coding Guidelines Validator</h1>
+					             	</div>
+					            </div>
+					        </a>
+
+				        </div>
+				    </div>
+				    <!-- Card ends here -->
+
+			    </div>
+			    <!--Grid column 2 -->	
+
+			    <!--Grid column 3 -->
+			    <div class="col-md-4 mb-6 text-center">
+
+					<!-- Card starts here-->
+				    <div class="card-img-overlay zoom">
+
+					        <div class="card-image" style="background-image: linear-gradient(-90deg, rgba(238, 194, 89 , 0.80), rgba(238, 89, 89 ,0.80 )); width: 100%; height: 100%; background-size:cover; border-radius: 10px;">
+
+					            <!-- Content -->
+					            <a href="http://172.31.131.100:8080/secure/Dashboard.jspa" target="_blank"  style="text-decoration: none;">
+
+					    	        <div class="text-white d-flex h-100 mask purple-gradient-rgba">
+
+					    	        	<div class="col-md-6">
+
+							    			<div class="card-body align-items-center d-flex justify-content-center">
+								                <h1 class="card-title">Altran JIRA</h1>
+						             		</div>
+
+					             		</div>
+
+					             		<div class="col-md-6y">
+
+							    			<div class="icon">
+								                <h1 class="card-title">Altran JIRA</h1>
+						             		</div>
+
+					             		</div>
+					            	</div>
+						        </a>
+
+					        </div>
+
+				    </div>
+				    <!-- Card ends here -->
+
+			    </div>
+			    <!--Grid column 3 -->	
+
+			</div>
+			<!-- *****	Grid row 1 ***** -->
+
+			
+			<!-- *****	Grid row 2 ***** -->
+			<div class="row" style="margin-top:0px;height: 300px;width: 1400px;">
+
+			    <!--Grid column 1 -->
+			    <div class="col-md-4 mb-6 text-center">
+
+					<!-- Card starts here-->
+				    <div class="card-img-overlay zoom">
+
+				        <div class="card-image" style="background-image: linear-gradient(-90deg, rgba(238, 194, 89 , 0.80), rgba(238, 89, 89 ,0.80 )),url(https://srv.latostadora.com/designall.dll/volquete_de_camion_volquete--i:14138559245614138520;x:20;w:520;m:1.jpg); width: 100%; height: 100%; display: flex;border-radius: 10px;">				          
+
+				       		<!-- Content -->
+				            <a class="links_to_act" href="http://172.31.141.47/" target="_blank" style="text-decoration: none;">
+				    	    
+				    	        <div class="text-white d-flex h-100 mask purple-gradient-rgba">
+					    		<div class="card-body align-items-center d-flex justify-content-center">
+						                <h1 class="card-title text-center">Coredump Analyzer</h1>
+					             	</div>
+					            </div>
+					        </a>
+
+				        </div>
+				    </div>
+				    <!-- Card ends here -->
+
+			    </div>
+			     <!--Grid column 1 -->
+
+				<!--Grid column 2 -->			     
+			    <div class="col-md-4 mb-6 text-center">
+
+					<!-- Card starts here-->
+				    <div class="card-img-overlay zoom">
+
+				        <div class="card-image" style="background-image: linear-gradient(-90deg, rgba(89, 186, 238 , 0.80), rgba(89, 238, 159 ,0.80 )),url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg); width: 100%; height: 100%; background-size:cover; border-radius: 10px;">
+				            <!-- Content -->
+				            <a href="#!" target="_blank"  style="text-decoration: none;">
+				    	    
+				    	        <div class="text-white d-flex h-100 mask purple-gradient-rgba">
+					    		<div class="card-body align-items-center d-flex justify-content-center">
+						                <h1 class="card-title">Lab Inventory</h1>
+					             	</div>
+					            </div>
+					        </a>
+
+				        </div>
+				    </div>
+				    <!-- Card ends here -->
+
+			    </div>
+				<!--Grid column 2 -->
+
+				<!--Grid column 3 -->			     
+			    <div class="col-md-4 mb-6 text-center">
+
+					<!-- Card starts here-->
+				    <div class="card-img-overlay zoom">
+
+				        <div class="card-image" style="background-image: linear-gradient(-90deg, rgba(82, 122, 245, 0.80) , rgba(155, 220, 255, 0.80)),url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg); width: 100%; height: 100%; background-size:cover; border-radius: 10px;">
+				            <!-- Content -->
+				            <a href="https://atnt-reviewboard.aricentcoe.com/reviewboard/dashboard/" target="_blank"  style="text-decoration: none;">
+				    	    
+				    	        <div class="text-white d-flex h-100 mask purple-gradient-rgba">
+					    		<div class="card-body align-items-center d-flex justify-content-center">
+						                <h1 class="card-title">Reviewboard</h1>
+					             	</div>
+					            </div>
+					        </a>
+
+				        </div>
+				    </div>
+				    <!-- Card ends here -->
+
+			    </div>
+				<!--Grid column 3 -->
+
+			</div>
+			<!-- *****	Grid row 2 ***** -->
+
+			<!-- *****	Grid row 3 ***** -->
+			<div class="row" style="margin-top:0px;height:300px;width: 1400px;">
+
+			    <!--Grid column 1 -->
+			    <div class="col-md-4 mb-6 text-center">
+
+					<!-- Card starts here-->
+				    <div class="card-img-overlay zoom">
+
+				        <div class="card-image" 
+                             style="background-image: linear-gradient(-90deg, rgba(82, 122, 245, 0.80) , rgba(155, 220, 255, 0.80)),url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg); width: 100%; height: 100%; background-size:cover;border-radius: 10px;">
+
+				            <!-- Content -->
+				            <a href="#!" target="_blank" style="text-decoration: none;">
+				    	    
+				    	        <div class="text-white d-flex h-100 mask">
+					    		<div class="card-body align-items-center d-flex justify-content-center">
+
+					    				<!-- add short content name inside h1 tag -->
+						                <h1 class="card-title"></h1>
+					             	</div>
+					            </div>
+					        </a>
+
+				        </div>
+
+					</div>
+				    <!-- Card ends here -->
+
+			    </div>
+			    <!--Grid column 1 -->
+
+
+			    <!--Grid column 2 -->
+			    <div class="col-md-4 mb-6 text-center">
+
+					<!-- Card starts here-->
+				    <div class="card-img-overlay zoom">
+
+				        <div class="card-image" style="background-image: linear-gradient(-90deg, rgba(204, 103, 255, 0.80), rgba(128, 103, 255 ,0.80 )),url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg); width: 100%; height: 100%; background-size:cover; border-radius: 10px;">
+
+				            <!-- Content -->
+				            <a href="https://jira.labs.att.com/" target="_blank"  style="text-decoration: none;">
+				    	    
+				    	        <div class="text-white d-flex h-100 mask purple-gradient-rgba">
+					    		<div class="card-body align-items-center d-flex justify-content-center">
+						                <h1 class="card-title">AT&T JIRA</h1>
+					             	</div>
+					            </div>
+					        </a>
+
+				        </div>
+				    </div>
+				    <!-- Card ends here -->
+
+			    </div>
+			    <!--Grid column 2 -->	
+
+			    <!--Grid column 3 -->
+			    <div class="col-md-4 mb-6 text-center">
+
+					<!-- Card starts here-->
+				    <div class="card-img-overlay zoom">
+
+				        <div class="card-image" style="background-image: linear-gradient(-90deg, rgba(238, 194, 89 , 0.80), rgba(238, 89, 89 ,0.80 )),url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg); width: 100%; height: 100%; background-size:cover; border-radius: 10px;">
+
+				            <!-- Content -->
+				            <a href="#!" target="_blank"  style="text-decoration: none;">
+				    	    
+				    	        <div class="text-white d-flex h-100 mask purple-gradient-rgba">
+					    		<div class="card-body align-items-center d-flex justify-content-center">
+
+					    				<!-- add short content name inside h1 tag -->
+						                <h1 class="card-title"></h1>
+					             	</div>
+					            </div>
+					        </a>
+
+				        </div>
+				    </div>
+				    <!-- Card ends here -->
+
+			    </div>
+			    <!--Grid column 3 -->	
+
+			</div>
+			<!-- *****	Grid row 3 ***** -->
+
+
+
+
+		</div>
+		<!-- the final box div -->
+
+	</body>
+	<!-- body ends here -->
+
+</html>
+<!-- html ends here -->
