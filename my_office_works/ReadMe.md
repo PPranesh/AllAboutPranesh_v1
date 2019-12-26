@@ -2,8 +2,9 @@
 # Read-File :)
 
 ```
-ReadMe Design link - https://www.makeareadme.com/.
-                     https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46.
+
+ReadMe Design link - <a href="https://www.makeareadme.com/" target="_blank">`ReadMe Link 1`</a>.
+                     <a href="https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46" target="_blank">`ReadMe Link 1`</a>.
 ```
 
 # Designing of All Data Representations
