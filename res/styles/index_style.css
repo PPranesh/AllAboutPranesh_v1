@@ -249,7 +249,7 @@ figure {
 }
 
 #fixed {
-  background-image: url("../images/computers.png");
+  background-image: url("/AllAboutPranesh/res/images/computers.png");
   position: fixed;
   display: block;
   top: 0;
